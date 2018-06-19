@@ -18,7 +18,17 @@ def line(katz_deli)
   end
 end
 
-# Take A Number Method
+# Take A Number Method - Final Recode Attempt
 def take_a_number(katz_deli, name)
-  
+  katz_deli << name
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+end
+
+# Now Serving - Final Recode Attempt
+def now_serving(katz_deli)
+  if
+    katz_deli.empty? == true
+    puts "There os nobody waiting to be served!"
+  else
+    puts "The "
   
