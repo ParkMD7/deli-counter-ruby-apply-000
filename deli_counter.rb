@@ -21,7 +21,7 @@ end
 
 # Take A Number Method
 def take_a_number(katz_deli)
-  ticket_number = katz_deli.length
+  ticket_number = katz_deli.length+1
   katz_deli << ticket_number
   puts "Welcome, you are #{ticket_number}."
 end
