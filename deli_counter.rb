@@ -11,3 +11,5 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     line_message = "The line is currently:"
+      katz_deli.each.with_index do |name, index|
+        line_message << " "
