@@ -4,31 +4,45 @@
 katz_deli = [ ]
 
 
-# Line Method - Final Recode Attempt
+# Line Method
 def line(katz_deli)
   if
     katz_deli.empty? == true
     puts "The line is currently empty."
   else
-    line_message = "The line is currently:"
+    current_line_message = "The line is currently:"
       katz_deli.each.with_index do |name, index|
-        line_message << " #{index+1}. #{name}."
+        current_line_message << " #{index+1}. #{name}"
       end
-    puts line_message
+    puts current_line_message
   end
 end
 
-# Take A Number Method - Final Recode Attempt
+
+# Take A Number Method
 def take_a_number(katz_deli, name)
   katz_deli << name
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
+
+# Now Serving Method
+def now_serving(katz_deli)
+  if 
+    katz_deli.empty? == true
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{katz_deli.first}."
+    katz_deli.shift
+  end
+end
 # Now Serving - Final Recode Attempt
 def now_serving(katz_deli)
   if
     katz_deli.empty? == true
-    puts "There os nobody waiting to be served!"
+    puts "There is nobody waiting to be served!"
   else
-    puts "The "
-  
+    puts "Now serving #{katz_deli.first}."
+    katz_deli.shift
+  end
+end 
