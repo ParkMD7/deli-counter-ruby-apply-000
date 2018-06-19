@@ -21,7 +21,6 @@ end
 
 # Take A Number Method
 ticket_number_counter = 0
-  
 def take_a_number(katz_deli)
   ticket_number_counter += 1
   katz_deli << ticket_number_counter
