@@ -12,4 +12,13 @@ def line(katz_deli)
   else
     line_message = "The line is currently:"
       katz_deli.each.with_index do |name, index|
-        line_message << " "
+        line_message << " #{index+1}. #{name}."
+      end
+    puts line_message
+  end
+end
+
+# Take A Number Method
+def take_a_number(katz_deli, name)
+  
+  
