@@ -20,8 +20,8 @@ end
 
 
 # Take A Number Method
-def take_a_number(katz_deli, name)
-  katz_deli << name
+def take_a_number(katz_deli)
+  katz_deli << ticket_number
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
