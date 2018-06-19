@@ -25,7 +25,7 @@ ticket_number_counter = 0
 def take_a_number(katz_deli)
   ticket_number_counter += 1
   katz_deli << ticket_number_counter
-  puts "Welcome, you are #{ticket_number}."
+  puts "Welcome, you are #{ticket_number_counter}."
 end
 
 
