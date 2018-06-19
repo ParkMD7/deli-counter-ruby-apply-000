@@ -22,7 +22,7 @@ end
 # Take A Number Method
 def take_a_number(katz_deli)
   katz_deli << ticket_number
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+  puts "Welcome, you are #{ticket_number}."
 end
 
 
