@@ -36,13 +36,3 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
-# Now Serving - Final Recode Attempt
-def now_serving(katz_deli)
-  if
-    katz_deli.empty? == true
-    puts "There is nobody waiting to be served!"
-  else
-    puts "Now serving #{katz_deli.first}."
-    katz_deli.shift
-  end
-end 
